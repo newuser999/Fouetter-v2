@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'lavishlyyours-regular';
+    src: url(fonts/lavishlyyours-regular-webfont.woff); format ('woff'),
+     url (fonts/lavishlyyours-regular-webfont.woff2) format ('woff2');
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+    font-family: 'lato-black';
+    src: url(fonts/lato-black-webfont.woff); format ('woff'),
+     url (fonts/lato-black-webfont.woff2) format ('woff2');
+     font-weight: 900;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+    font-family: 'lato-light';
+    src: url(fonts/lato-light-webfont.woff); format ('woff'),
+     url (fonts/lato-light-webfont.woff2) format ('woff2');
+     font-weight: 100;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+    font-family: 'lato-regular';
+    src: url(fonts/lato-regular-webfont.woff); format ('woff'),
+     url (fonts/lato-regular-webfont.woff2) format ('woff2');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+}
+
+@font-face {
+    font-family: 'lato-italic';
+    src: url(fonts/lato-italic-webfont.woff); format ('woff'),
+     url (fonts/lato-italic-webfont.woff2) format ('woff2');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+}
+
+/* BEGINNING OF THE BODY */
+
+body {
+    background-color: rgb(251, 243, 228);
+}
+
+/* hr {
+    line-height: 100px;
+} */
+
+nav {
+    font-family: 'lato-light';
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* margin-bottom: 50; */
+    background-color: white;
+    border-style: solid ;
+    
+}
+h1 {
+    font-family: 'lavishlyyours-regular';
+    font-size: 20vw;
+    text-align: center;
+    line-height: 250px;
+    padding: 100px 20px 40px 20pxs;
+    margin: none;
+    color: rgb(113, 52, 30);
+}
+h2 {
+    font-family: 'lato-light';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-family: 'lato';
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'lato-light';
+    font-size: 30px;
+    padding: 30px;
+    color: #9c5427;
+    display: inline;
+    padding: 20px 80px 20px 100px;
+}
+
+button {
+    background-color: #9c5427;
+    border: none;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+
+/* p {
+    font-family: 'lato-regular';
+} */
+
+article {
+    font-family: 'lato-regular';
+    padding: 40px 200px 40px 200px;
+    background-color: white;
+    padding-bottom: 150px;
+    margin: 20px;
+    font-size: larger;
+}
+
+img {
+    padding: 10px 23px 10px 23px;
+}
+
+div {
+    font-family: 'lavishlyyours-regular';
+    font-size: 90px;   
+    color: #9c5427;
+    padding: 70px;
+    text-align: center; 
+    background-color: none;
+}
+
+footer {
+    font-family: 'lato-regular';
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+input { 
+    height: 40px;
+    width: 400px;
+    background-color: rgb(183, 127, 85);
+    border: none;
+    padding: 10px;
+    
+}
